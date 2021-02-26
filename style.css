@@ -116,7 +116,7 @@ h3 {
     text-align: right;
     font-size: 2.5rem;
     padding-top: none;
-    position: fixed;
+    position: absolute;
     top: 0.5em;
     left: 1150px;
     width: 2em;
