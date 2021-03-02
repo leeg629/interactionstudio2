@@ -1,6 +1,5 @@
 body {
   background: #000;
-  padding-left: 1rem;
   position: flex;
 }
 
@@ -11,7 +10,6 @@ body {
 
 .container {
   width: 40em;
-  padding-left: 1rem;
   position: flex;
 
 }
@@ -30,7 +28,6 @@ h1 {
     user-select: none;
     text-transform: uppercase;
     font-size: 2rem;
-    padding-left: 10rem;
     padding-bottom: 5rem;
     width: 3em;
     position: flex;
