@@ -1,6 +1,7 @@
 body {
   background: #000;
   position: flex;
+  padding: 10rem;
 }
 
 @viewport {
@@ -11,7 +12,7 @@ body {
 .container {
   width: 20em;
   position: flex;
-  padding: 3rem;
+  padding: 10rem;
 
 }
 
