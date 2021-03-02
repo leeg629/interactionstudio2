@@ -11,6 +11,7 @@ body {
 .container {
   width: 40em;
   position: flex;
+  padding: 3rem;
 
 }
 
@@ -27,8 +28,9 @@ h1 {
     font-family: montserrat;
     user-select: none;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 4rem;
     padding-bottom: 5rem;
+    padding-left: 3rem;
     width: 3em;
     position: flex;
 }
@@ -45,7 +47,7 @@ h2 {
   font-family: 'font';
   color: #fff;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.5rem;
   line-height: 1.1;
   text-align: justify;
 }
@@ -62,7 +64,7 @@ h2 {
   font-family: 'font';
   color: gold;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.5rem;
   line-height: 1.1;
 }
 
