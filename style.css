@@ -11,7 +11,7 @@ body {
 .container {
   width: 20em;
   position: flex;
-  padding: 2.5rem;
+  padding: 2rem;
 
 }
 
@@ -30,7 +30,7 @@ h1 {
     text-transform: uppercase;
     font-size: 3rem;
     padding-bottom: 9rem;
-    padding: 4rem;
+    padding: 3rem;
     width: 3em;
     position: flex;
 }
@@ -115,9 +115,9 @@ span.light {
     font-family: montserrat;
     user-select: none;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     font-size: 2rem;
-    padding: 4rem;
+    padding: 3rem;
     padding-top: 9rem;
     width: 2em;
 }
