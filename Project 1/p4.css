@@ -1,0 +1,30 @@
+body {
+  background-image: url(images/p4background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+img {
+  left: 260px;
+  top: 180px;
+  position: absolute;
+}
+
+a {
+   color: black;
+   font-size: 17px;
+   font-family: helvetica neue, sans-serif;
+   font-weight: normal;
+   text-decoration: none;
+   left: 100px;
+   top: 100px;
+   position: absolute;
+ }
+
+embed {
+  left: 1000px;
+  top: 580px;
+  position: absolute;
+}

@@ -1,0 +1,30 @@
+body {
+  background-image: url(images/p1background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+#amazon1 {
+  left: 80px;
+  top: 210px;
+  position: absolute;
+}
+
+#amazon2 {
+  left: 730px;
+  top: 210px;
+  position: absolute;
+}
+
+a {
+  color: black;
+  font-size: 17px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 100px;
+  top: 102px;
+  position: absolute;
+}

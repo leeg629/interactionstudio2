@@ -1,0 +1,112 @@
+body {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#hi {
+  color: black;
+  font-size: 32px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 560px;
+  top: 118px;
+  position: absolute;
+}
+
+#im {
+  color: black;
+  font-size: 32px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 560px;
+  top: 218px;
+  position: absolute;
+}
+
+#to {
+  color: black;
+  font-size: 32px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 560px;
+  top: 318px;
+  position: absolute;
+}
+
+#dreams {
+  color: black;
+  font-size: 32px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 560px;
+  top: 418px;
+  position: absolute;
+}
+
+#click1{
+  color: black;
+  font-size: 15px;
+  font-family: Helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 480px;
+  top: 520px;
+  position: absolute;
+}
+
+#click2{
+  color: black;
+  font-size: 15px;
+  font-family: Helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 970px;
+  top: 520px;
+  position: absolute;
+}
+
+.sparkle1 {
+  font-size: 25px;
+  position: absolute;
+  left: 535px;
+  top: 450px;
+  position: absolute;
+}
+
+.sparkle2 {
+  font-size: 25px;
+  position: absolute;
+  left: 695px;
+  top: 450px;
+  position: absolute;
+}
+
+.ring {
+  font-size: 35px;
+  position: absolute;
+  left: 900px;
+  top: 550px;
+}
+
+#ben {
+  position: absolute;
+  left: 370px;
+  top: 100px;
+}
+
+a {
+  color: black;
+  font-size: 35px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  left: 560px;
+  top: 550px;
+  position: absolute;
+}
