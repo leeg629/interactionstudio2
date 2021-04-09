@@ -1,0 +1,34 @@
+body {
+  background-color: #F4C045;
+}
+
+.canvasbackground{
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+}
+
+*{
+   margin:0;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   font-family: Georgia, sans-serif;
+}
+canvas{
+   cursor: crosshair;
+   border:black solid 1px;
+   position: absolute;
+   top: 5.5rem;
+   right: 6rem;
+   width: 30.5rem;
+   height: 35.5rem;
+
+}
+#clr div{
+   cursor:pointer;
+   width:20px;
+   height:20px;
+   float:left;
+
+}

@@ -1,0 +1,116 @@
+body {
+  background-color: #F4C045;
+}
+
+.border {
+  border-style: solid;
+  border-width: medium;
+  width: 85rem;
+  height: 41rem;
+  margin: 2rem;
+}
+
+@font-face {
+  font-family: fingerpaint;
+  src: url(fingerpaint.ttf);
+}
+
+@font-face {
+  font-family: button;
+  src: url(button.ttf);
+}
+
+#title {
+  font-size: 9rem;
+  font-family: fingerpaint;
+  color: black;
+  width:650px;
+  margin-left: 22rem;
+  line-height: 8rem;
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+.chick {
+  margin-left: 59rem;
+  margin-top: -10rem;
+}
+
+#pencil {
+  width: 220px;
+  position: fixed;
+  top: 9.6rem;
+  right: 5.8rem;
+}
+
+.borderwrap {
+  margin-top: -21rem;
+}
+
+.button1 {
+color: black;
+font-size: 3rem;
+font-family: button;
+text-transform: uppercase;
+text-decoration: none;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 134px;
+padding-right: 134px;
+border: 2px solid black;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+color: red;
+text-decoration: none;
+border-color: red;
+transition: all 0.3s ease 0s;
+}
+
+.button2 {
+color: black;
+font-size: 3rem;
+font-family: button;
+text-transform: uppercase;
+text-decoration: none;
+margin-top: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 110px;
+padding-right: 110px;
+border: 2px solid black;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button2:hover {
+color: red;
+text-decoration: none;
+border-color: red;
+transition: all 0.3s ease 0s;
+}
+
+.button3 {
+color: black;
+font-size: 3rem;
+font-family: button;
+text-transform: uppercase;
+text-decoration: none;
+margin-top: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 132px;
+padding-right: 134px;
+border: 2px solid black;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.button3:hover {
+color: red;
+text-decoration: none;
+border-color: red;
+transition: all 0.3s ease 0s;
+}
