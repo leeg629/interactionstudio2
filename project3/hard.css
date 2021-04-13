@@ -8,13 +8,6 @@ body {
   right: 1rem;
 }
 
-*{
-   margin:0;
-   user-select: none;
-   -webkit-user-select: none;
-   -moz-user-select: none;
-   font-family: Georgia, sans-serif;
-}
 canvas{
    cursor: crosshair;
    border:black solid 1px;
@@ -25,10 +18,16 @@ canvas{
    height: 35.5rem;
 
 }
-#clr div{
-   cursor:pointer;
-   width:20px;
-   height:20px;
-   float:left;
 
+.container{
+  display: block;
+  max-width: 30rem;
+  max-height: 30rem;
+  position: absolute;
+  top: 4.5rem;
+  left: 1rem;
+}
+
+.filter{
+  display: none;
 }

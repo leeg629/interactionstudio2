@@ -5,9 +5,9 @@ body {
 .border {
   border-style: solid;
   border-width: medium;
-  width: 85rem;
-  height: 41rem;
-  margin: 2rem;
+  width: 87rem;
+  height: 43.4rem;
+  margin: 0.9rem;
 }
 
 @font-face {
@@ -37,24 +37,26 @@ body {
 }
 
 #pencil {
-  width: 220px;
-  position: fixed;
-  top: 9.6rem;
-  right: 5.8rem;
+  width: 240px;
+  height: 270px;
+  position: absolute;
+  transform: rotate(270deg);
+  top: 9.3rem;
+  right: 3.4rem;
 }
 
 .borderwrap {
-  margin-top: -21rem;
+  margin-top: -20rem;
 }
 
 .button1 {
 color: black;
-font-size: 3rem;
-font-family: button;
+font-size: 2.7rem;
+font-family: fingerpaint;
 text-transform: uppercase;
 text-decoration: none;
-padding-top: 4px;
-padding-bottom: 4px;
+padding-top: 3px;
+padding-bottom: 3px;
 padding-left: 134px;
 padding-right: 134px;
 border: 2px solid black;
@@ -71,46 +73,46 @@ transition: all 0.3s ease 0s;
 
 .button2 {
 color: black;
-font-size: 3rem;
-font-family: button;
+font-size: 2.7rem;
+font-family: fingerpaint;
 text-transform: uppercase;
 text-decoration: none;
 margin-top: 10px;
-padding-top: 4px;
-padding-bottom: 4px;
-padding-left: 110px;
-padding-right: 110px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 103px;
+padding-right: 103px;
 border: 2px solid black;
 display: inline-block;
 transition: all 0.3s ease 0s;
 }
 
 .button2:hover {
-color: red;
+color: yellow;
 text-decoration: none;
-border-color: red;
+border-color: yellow;
 transition: all 0.3s ease 0s;
 }
 
 .button3 {
 color: black;
-font-size: 3rem;
-font-family: button;
+font-size: 2.7rem;
+font-family: fingerpaint;
 text-transform: uppercase;
 text-decoration: none;
 margin-top: 10px;
-padding-top: 4px;
-padding-bottom: 4px;
-padding-left: 132px;
-padding-right: 134px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 128px;
+padding-right: 128px;
 border: 2px solid black;
 display: inline-block;
 transition: all 0.3s ease 0s;
 }
 
 .button3:hover {
-color: red;
+color: blue;
 text-decoration: none;
-border-color: red;
+border-color: blue;
 transition: all 0.3s ease 0s;
 }
