@@ -2,13 +2,7 @@ body {
   background-color: #F4C045;
 }
 
-.border {
-  border-style: solid;
-  border-width: medium;
-  width: 87rem;
-  height: 43.4rem;
-  margin: 0.9rem;
-}
+
 
 @font-face {
   font-family: fingerpaint;
@@ -25,15 +19,15 @@ body {
   font-family: fingerpaint;
   color: black;
   width:650px;
-  margin-left: 22rem;
+  margin-left: 25rem;
   line-height: 8rem;
   text-align: center;
-  margin-top: 0.3em;
+  margin-top: 0.6em;
 }
 
 .chick {
-  margin-left: 59rem;
-  margin-top: -10rem;
+  margin-left: 63rem;
+  margin-top: -8rem;
 }
 
 #pencil {
@@ -41,12 +35,13 @@ body {
   height: 270px;
   position: absolute;
   transform: rotate(270deg);
-  top: 9.3rem;
-  right: 3.4rem;
+  top: 12rem;
+  right: 3rem;
 }
 
 .borderwrap {
-  margin-top: -20rem;
+  margin-top: -19rem;
+  margin-left: 1rem;
 }
 
 .button1 {
@@ -77,7 +72,7 @@ font-size: 2.7rem;
 font-family: fingerpaint;
 text-transform: uppercase;
 text-decoration: none;
-margin-top: 10px;
+margin-top: 15px;
 padding-top: 3px;
 padding-bottom: 3px;
 padding-left: 103px;
@@ -100,7 +95,7 @@ font-size: 2.7rem;
 font-family: fingerpaint;
 text-transform: uppercase;
 text-decoration: none;
-margin-top: 10px;
+margin-top: 15px;
 padding-top: 3px;
 padding-bottom: 3px;
 padding-left: 128px;
