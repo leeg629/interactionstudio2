@@ -43,6 +43,8 @@ function gotAllChicks(err) {
   showChicks();
 }
 
+
+
 // just loop through the books and console.log them
 function consoleLogChicks() {
   console.log("consoleLogChicks()");
@@ -70,6 +72,9 @@ function showChicks() {
   var chickImage = document.createElement("img");
   chickImage.classList.add("chick-image");
   chickImage.src = chick.fields.image[0].url;
+  chickImage.addEventListener('click', () => {
+  chickImage.src = chicks[Math.floor(Math.random() * chicks.length)].fields.image[0].url;
+});
   chickContainer.append(chickImage);
 }
 

@@ -1,113 +1,162 @@
 body {
-  background-color: #F4C045;
+  background-color:white;
 }
-
-
 
 @font-face {
   font-family: fingerpaint;
   src: url(fingerpaint.ttf);
 }
 
-@font-face {
-  font-family: button;
-  src: url(button.ttf);
-}
-
-#title {
-  font-size: 9rem;
-  font-family: fingerpaint;
-  color: black;
-  width:650px;
-  margin-left: 25rem;
-  line-height: 8rem;
-  text-align: center;
-  margin-top: 0.6em;
-}
-
-.chick {
-  margin-left: 63rem;
-  margin-top: -8rem;
-}
-
-#pencil {
-  width: 240px;
-  height: 270px;
+.chick{
   position: absolute;
-  transform: rotate(270deg);
-  top: 12rem;
-  right: 3rem;
+  right: 5rem;
+  top: 2rem;
 }
 
-.borderwrap {
-  margin-top: -19rem;
-  margin-left: 1rem;
+h1 {
+  font-family: fingerpaint;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  color: black;
+  font-size: 5rem;
+  text-shadow: 0 0 30px #FFFFFF;
 }
 
-.button1 {
-color: black;
-font-size: 2.7rem;
-font-family: fingerpaint;
-text-transform: uppercase;
-text-decoration: none;
-padding-top: 3px;
-padding-bottom: 3px;
-padding-left: 134px;
-padding-right: 134px;
-border: 2px solid black;
-display: inline-block;
-transition: all 0.3s ease 0s;
+h2 {
+  font-family: fingerpaint;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: black;
+  font-size: 4rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 4px 4px 0 #000;
 }
 
-.button1:hover {
-color: red;
-text-decoration: none;
-border-color: red;
-transition: all 0.3s ease 0s;
+a {
+  text-decoration: none;
 }
 
-.button2 {
-color: black;
-font-size: 2.7rem;
-font-family: fingerpaint;
-text-transform: uppercase;
-text-decoration: none;
-margin-top: 15px;
-padding-top: 3px;
-padding-bottom: 3px;
-padding-left: 103px;
-padding-right: 103px;
-border: 2px solid black;
-display: inline-block;
-transition: all 0.3s ease 0s;
+#btn1 {
+  top: 50px;
 }
 
-.button2:hover {
-color: yellow;
-text-decoration: none;
-border-color: yellow;
-transition: all 0.3s ease 0s;
+#btn2 {
+  top: 300px;
 }
 
-.button3 {
-color: black;
-font-size: 2.7rem;
-font-family: fingerpaint;
-text-transform: uppercase;
-text-decoration: none;
-margin-top: 15px;
-padding-top: 3px;
-padding-bottom: 3px;
-padding-left: 128px;
-padding-right: 128px;
-border: 2px solid black;
-display: inline-block;
-transition: all 0.3s ease 0s;
+#btn3 {
+  top: 540px;
 }
 
-.button3:hover {
-color: blue;
-text-decoration: none;
-border-color: blue;
-transition: all 0.3s ease 0s;
+div.button1 {
+  background-color: red;
+  color: #2c3e50;
+  border: none;
+  border-radius: 130px;
+  width: 500px;
+  height: 130px;
+  position: fixed;
+  left: -435px;
+  transition: .7s ease;
+}
+
+div.button1:hover {
+  background-color: red;
+  position: fixed;
+  left: -50px;
+  width: 600px;
+  border-radius: 100px;
+  box-shadow: 0px 5px 0px red;
+}
+
+div.button1:active {
+  background-color: red;
+  transition: 0s;
+  color: yellow;
+}
+
+div.button2 {
+  background-color: yellow;
+  color: yellow;
+  border: none;
+  border-radius: 130px;
+  width: 500px;
+  height: 130px;
+  position: fixed;
+  left: -435px;
+  transition: .7s ease;
+}
+
+div.button2:hover {
+  background-color: yellow;
+  position: fixed;
+  left: -50px;
+  width: 1000px;
+  border-radius: 100px;
+  box-shadow: 0px 5px 0px yellow;
+}
+
+div.button2:active {
+  background-color: yellow;
+  transition: 0s;
+  color: #ecf0f1;
+}
+
+
+div.button3 {
+  background-color: blue;
+  color: blue;
+  border: none;
+  border-radius: 130px;
+  width: 500px;
+  height: 130px;
+  position: fixed;
+  left: -435px;
+  transition: .7s ease;
+}
+
+div.button3:hover {
+  background-color: blue;
+  position: fixed;
+  left: -50px;
+  width: 1420px;
+  border-radius: 70px;
+  box-shadow: 0px 5px 0px blue;
+}
+
+div.button3:active {
+  background-color: blue;
+  transition: 0s;
+  color: blue;
+}
+
+.orange {
+  position: absolute;
+  top: -6rem;
+  right: -5rem;
+}
+
+.green {
+  position: absolute;
+  top: 0rem;
+  right: 57rem;
+}
+
+.pink {
+  position: absolute;
+  top: 33rem;
+  right: 40rem;
+  transform: rotate(60deg);
+}
+
+#brush {
+  transform: rotate(70deg);
+  position: absolute;
+  top: -3rem;
+  right: 5rem;
+  width: 35rem;
 }
