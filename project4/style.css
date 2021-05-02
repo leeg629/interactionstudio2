@@ -1,0 +1,46 @@
+body{
+  background-image: url('homepage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ }
+
+body.paris{
+  background-image: url('paris.png');
+}
+
+body.osaka{
+  background-image: url('osaka.png');
+}
+
+body.istanbul{
+  background-image: url('istanbul.png');
+}
+
+body.ulaanbaatar{
+  background-image: url('ulaanbaatar.png');
+}
+
+body.yangon{
+  background-image: url('yangon.png');
+}
+
+body.taipei{
+  background-image: url('taipei.png');
+}
+
+body.rio{
+  background-image: url('rio.png');
+}
+
+body.edinburgh{
+  background-image: url('edinburgh.png');
+}
+
+body.waikiki{
+  background-image: url('waikiki.png');
+}
+
+body.quebeccity{
+  background-image: url('quebeccity.png');
+}
