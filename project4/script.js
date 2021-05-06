@@ -1,81 +1,183 @@
-let result = document.querySelector("#result");
+function stopAllSounds() {
+	//stop homepage sound
+  document.getElementById('home').pause();
 
-// Detect when we are pressing a key anywhere on the webpage (document)
-document.addEventListener("keydown", function(event){
+	//stop paris
+	document.getElementById('paris').pause();
 
-//to play on the key A do this(using Jquery):
-const audio = document.getElementById('audio');
+	//stop osaka
+	document.getElementById('osaka').pause();
 
+	//stop istanbul
+	document.getElementById('istanbul').pause();
 
-  // Check if the key we pressed is the p key
-  // If so, switch our page to paris
-  if (event.key == "p"){
-  document.body.className="paris";
-  }
+	//stop ulaanbaatar
+	document.getElementById('ulaanbaatar').pause();
 
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'p') {
-    	if (!audio.paused) {
-        audio.pause();
-        audio.currentTime = 0;
-      } else {
-      	audio.play();
-      }
-    }
+	//stop yangon
+	document.getElementById('yangon').pause();
 
-  // Check if the key we pressed is the o key
-  // If so, switch our page to osaka
-  if (event.key == "o"){
-  document.body.className="osaka";
-  }
+	//stop taipei
+	document.getElementById('taipei').pause();
 
-  // Check if the key we pressed is the i key
-  // If so, switch our page to istanbul
-  if (event.key == "i"){
-  document.body.className="istanbul";
-  }
+	//stop rio
+	document.getElementById('rio').pause();
 
-  // Check if the key we pressed is the u key
-  // If so, switch our page to ulaanbaatar
-  if (event.key == "u"){
-  document.body.className="ulaanbaatar";
-  }
+	//stop edinburgh
+	document.getElementById('edinburgh').pause();
 
-  // Check if the key we pressed is the y key
-  // If so, switch our page to yangon
-  if (event.key == "y"){
-  document.body.className="yangon";
-  }
+	//stop waikiki
+	document.getElementById('waikiki').pause();
 
-  // Check if the key we pressed is the t key
-  // If so, switch our page to taipei
-  if (event.key == "t"){
-  document.body.className="taipei";
-  }
+	//stop quebeccity
+	document.getElementById('quebeccity').pause();
 
-  // Check if the key we pressed is the r key
-  // If so, switch our page to rio de janeiro
-  if (event.key == "r"){
-  document.body.className="rio";
-  }
+	//stop lisbon
+	document.getElementById('lisbon').pause();
 
-  // Check if the key we pressed is the e key
-  // If so, switch our page to rio de edinburgh
-  if (event.key == "e"){
-  document.body.className="edinburgh";
-  }
+	//stop krakow
+	document.getElementById('krakow').pause();
 
-  // Check if the key we pressed is the w key
-  // If so, switch our page to waikiki
-  if (event.key == "w"){
-  document.body.className="waikiki";
-  }
+	//stop jakarta
+	document.getElementById('jakarta').pause();
 
-  // Check if the key we pressed is the q key
-  // If so, switch our page to quebeccity
-  if (event.key == "q"){
-  document.body.className="quebeccity";
-  }
+	//stop hanoi
+	document.getElementById('hanoi').pause();
 
+	//stop guimaras
+	document.getElementById('guimaras').pause();
+
+	//stop frankfurt
+	document.getElementById('frankfurt').pause()
+
+	//stop dubai
+	document.getElementById('dubai').pause();
+
+	//stop seoul
+	document.getElementById('seoul').pause();
+
+	//stop amsterdam
+	document.getElementById('amsterdam').pause();
+
+	//stop mexicocity
+	document.getElementById('mexicocity').pause();
+
+	//stop newyork
+	document.getElementById('newyork').pause();
+
+	//stop bangkok
+	document.getElementById('bangkok').pause();
+
+	//stop venice
+	document.getElementById('venice').pause();
+
+	//stop copenhagen
+	document.getElementById('copenhagen').pause();
+
+	//stop xian
+	document.getElementById('xian').pause();
+
+	//stop zermatt
+	document.getElementById('zermatt').pause();
 }
-})
+
+document.addEventListener('keydown', function (event) {
+	if (event.key == "p") {
+		document.body.className = "paris";
+		stopAllSounds();
+		document.getElementById('paris').currentTime=0;
+		document.getElementById('paris').play();
+	}
+
+	if (event.key == "o") {
+		document.body.className = "osaka";
+		stopAllSounds();
+		document.getElementById('osaka').currentTime=0;
+		document.getElementById('osaka').play();
+  }
+
+	if (event.key == "i") {
+		document.body.className = "istanbul";
+		stopAllSounds();
+		document.getElementById('istanbul').currentTime=0;
+		document.getElementById('istanbul').play();
+	}
+
+	if (event.key == "u") {
+		document.body.className = "ulaanbaatar";
+		stopAllSounds();
+		document.getElementById('ulaanbaatar').currentTime=0;
+		document.getElementById('ulaanbaatar').play();
+	}
+
+	if (event.key == "y") {
+		document.body.className = "yangon";
+		stopAllSounds();
+		document.getElementById('yangon').currentTime=0;
+		document.getElementById('yangon').play();
+	}
+
+	if (event.key == "t") {
+		document.body.className = "taipei";
+    stopAllSounds();
+    document.getElementById('taipei').currentTime=0;
+    document.getElementById('taipei').play();
+	}
+
+	if (event.key == "r") {
+		document.body.className = "rio";
+    stopAllSounds();
+    document.getElementById('rio').currentTime=0;
+    document.getElementById('rio').play();
+	}
+
+	if (event.key == "e") {
+		document.body.className = "edinburgh";
+    stopAllSounds();
+    document.getElementById('edinburgh').currentTime=0;
+    document.getElementById('edinburgh').play();
+	}
+
+	if (event.key == "w") {
+		document.body.className = "waikiki";
+    stopAllSounds();
+    document.getElementById('waikiki').currentTime=0;
+    document.getElementById('waikiki').play();
+	}
+
+	if (event.key == "q") {
+		document.body.className = "quebeccity";
+    stopAllSounds();
+    document.getElementById('quebeccity').currentTime=0;
+    document.getElementById('quebeccity').play();
+	}
+
+  if (event.key == "l") {
+    document.body.className = "lisbon";
+    stopAllSounds();
+    document.getElementById('lisbon').currentTime=0;
+    document.getElementById('lisbon').play();
+  }
+
+  if (event.key == "k") {
+    document.body.className = "krakow";
+    stopAllSounds();
+    document.getElementById('krakow').currentTime=0;
+    document.getElementById('krakow').play();
+  }
+
+  if (event.key == "j") {
+    document.body.className = "jakarta";
+    stopAllSounds();
+    document.getElementById('jakarta').currentTime=0;
+    document.getElementById('jakarta').play();
+  }
+
+  if (event.key == "h") {
+    document.body.className = "hanoi";
+    stopAllSounds();
+    document.getElementById('hanoi').currentTime=0;
+    document.getElementById('hanoi').play();
+  }
+
+});
