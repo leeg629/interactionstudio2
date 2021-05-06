@@ -81,6 +81,8 @@ function stopAllSounds() {
 	document.getElementById('zermatt').pause();
 }
 
+
+
 document.addEventListener('keydown', function (event) {
 	if (event.key == "p") {
 		document.body.className = "paris";

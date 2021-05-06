@@ -1,0 +1,33 @@
+body{
+  background-color: #b6e8f2;
+}
+
+.container{
+  margin: 150px;
+}
+
+h1{
+  color: black;
+  font-size: 70px;
+  font-family: helvetica;
+}
+
+p{
+  color: black;
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.home{
+  float: right;
+  display: block;
+  margin-right: 0.6rem;
+  margin-top: -8.4rem;
+  filter: drop-shadow(2px 3px 3px #333);
+}
+
+.home:hover {
+transform: scale(1.1);
+filter: drop-shadow(2px 3px 3px #333);
+}

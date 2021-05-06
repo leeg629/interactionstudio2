@@ -5,6 +5,19 @@ body{
   background-size: 100% 100%;
  }
 
+.info{
+  float: right;
+  display: block;
+  margin-right: 0.6rem;
+  margin-top: 0.6rem;
+  filter: drop-shadow(2px 3px 3px #333);
+}
+
+.info:hover {
+transform: scale(1.1);
+filter: drop-shadow(2px 3px 3px #333);
+}
+
 body.paris{
   background-image: url('paris.png');
 }
