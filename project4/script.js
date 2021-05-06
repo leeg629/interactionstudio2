@@ -180,4 +180,88 @@ document.addEventListener('keydown', function (event) {
     document.getElementById('hanoi').play();
   }
 
+  if (event.key == "g") {
+    document.body.className = "guimaras";
+    stopAllSounds();
+    document.getElementById('guimaras').currentTime=0;
+    document.getElementById('guimaras').play();
+  }
+
+  if (event.key == "f") {
+    document.body.className = "frankfurt";
+    stopAllSounds();
+    document.getElementById('frankfurt').currentTime=0;
+    document.getElementById('frankfurt').play();
+  }
+
+  if (event.key == "d") {
+    document.body.className = "dubai";
+    stopAllSounds();
+    document.getElementById('dubai').currentTime=0;
+    document.getElementById('dubai').play();
+  }
+
+  if (event.key == "s") {
+    document.body.className = "seoul";
+    stopAllSounds();
+    document.getElementById('seoul').currentTime=0;
+    document.getElementById('seoul').play();
+  }
+
+  if (event.key == "a") {
+    document.body.className = "amsterdam";
+    stopAllSounds();
+    document.getElementById('amsterdam').currentTime=0;
+    document.getElementById('amsterdam').play();
+  }
+
+  if (event.key == "m") {
+    document.body.className = "mexicocity";
+    stopAllSounds();
+    document.getElementById('mexicocity').currentTime=0;
+    document.getElementById('mexicocity').play();
+  }
+
+  if (event.key == "n") {
+    document.body.className = "newyork";
+    stopAllSounds();
+    document.getElementById('newyork').currentTime=0;
+    document.getElementById('newyork').play();
+  }
+
+  if (event.key == "b") {
+    document.body.className = "bangkok";
+    stopAllSounds();
+    document.getElementById('bangkok').currentTime=0;
+    document.getElementById('bangkok').play();
+  }
+
+  if (event.key == "v") {
+    document.body.className = "venice";
+    stopAllSounds();
+    document.getElementById('venice').currentTime=0;
+    document.getElementById('venice').play();
+  }
+
+  if (event.key == "c") {
+    document.body.className = "copenhagen";
+    stopAllSounds();
+    document.getElementById('copenhagen').currentTime=0;
+    document.getElementById('copenhagen').play();
+  }
+
+  if (event.key == "x") {
+    document.body.className = "xian";
+    stopAllSounds();
+    document.getElementById('xian').currentTime=0;
+    document.getElementById('xian').play();
+  }
+
+  if (event.key == "z") {
+    document.body.className = "zermatt";
+    stopAllSounds();
+    document.getElementById('zermatt').currentTime=0;
+    document.getElementById('zermatt').play();
+  }
+
 });
